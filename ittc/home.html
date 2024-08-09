@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attendance Register</title>
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div class="logo">
+          <img src="images/logo.jpg" alt="Logo" />
+        </div>
+        <ul class="nav">
+          <li class="nav-item my-classes"><a href="#">My Classes</a></li>
+          <li class="nav-item new-class"><a href="#">New Class</a></li>
+          <li class="nav-item summary"><a href="#">Summary</a></li>
+        </ul>
+      </div>
+      <div class="main-content">
+        <div class="header">
+          <h1>STUDENT ATTENDANCE REGISTER</h1>
+          <div class="user-info">
+            <h2>
+              TEACHER X <br />
+              teacherx@gmail.com
+            </h2>
+          </div>
+        </div>
+        <div class="actions">
+          <a href="create_class.html">
+            <button class="button">Create New Class</button>
+          </a>
+          <button class="button secondary">My summary</button>
+        </div>
+        <div class="appraisals">
+          <h2>My Classes</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Year</th>
+                <th>Term</th>
+                <th>Class</th>
+                <th>Subject</th>
+                <th>No of Students</th>
+                <th>Week</th>
+                <th>Date Created</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2022</td>
+                <td>Term One</td>
+                <td>Primary Schools</td>
+                <td class="complete">Complete</td>
+                <td>100%</td>
+                <td>79.20</td>
+                <td>27th Jun, 2022</td>
+                <td>
+                  <a href="signup.html">
+                    <button class="button action">View Class</button>
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

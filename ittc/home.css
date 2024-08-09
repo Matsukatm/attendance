@@ -1,0 +1,155 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.sidebar {
+  background-color: #0a1e42;
+  color: #fff;
+  width: 250px;
+  padding: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.nav {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+.nav li {
+  margin-bottom: 10px;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+/* Style for the navigation items */
+.nav-item {
+  list-style: none;
+  margin-bottom: 50px;
+}
+
+/* Style for My Classes */
+.my-classes a {
+  color: blue; /* Example style */
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+/* Style for New Class */
+.new-class a {
+  color: blue; /* Example style */
+  font-style: italic;
+  margin-bottom: 50px;
+}
+
+/* Style for Summary */
+.summary a {
+  color: blue; /* Example style */
+  text-decoration: underline;
+}
+
+.main-content {
+  background-color: #f8f9fa;
+  flex: 1;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0a1e42;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.actions {
+  margin: 20px 0;
+}
+
+.button {
+  background-color: #0a1e42;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button.secondary {
+  background-color: #846f36;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.appraisals {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.filter label,
+.filter select,
+.filter input {
+  margin-right: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.complete {
+  color: #28a745;
+}
+
+.action {
+  background-color: #846f36;
+}
+
+.action:hover {
+  opacity: 0.8;
+}
